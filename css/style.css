@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+ul li {
+  margin-left: 20px;
+}
+
+.slider img {
+  width: 50px;
+  transition:transform 0.25s ;
+  cursor: pointer;
+}
+
+.slider img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width:750px) {
+  #imageCol {
+    width: 100px;
+  }
+}
